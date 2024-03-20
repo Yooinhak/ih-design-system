@@ -1,8 +1,18 @@
-/**
- * @copyright Copyright © 2022 Corretto, Inc. All rights reserved.
- */
-
-// 2.0 design style guide (2023/01/12)
+export const primary = {
+  100: '#F6EBFF',
+  200: '#EEDDFF',
+  300: '#E6D0FF',
+  400: '#DBBBFE',
+  500: '#CCA4FD',
+  600: '#BD8BFC',
+  700: '#AE72F9',
+  800: '#9D57F4',
+  900: '#893DE7',
+  1000: '#7326D3',
+  1100: '#5D13B7',
+  1200: '#470C94',
+  1300: '#33106A',
+};
 
 export const gray = {
   50: '#FFFFFF',
@@ -238,12 +248,12 @@ export const background = {
   gray100: gray[100],
   gray200: gray[200],
   gray700: gray[700],
-  blue100: blue[100],
-  blue300: blue[300],
-  blue400: blue[400],
-  blue500: blue[500],
-  blue600: blue[600],
-  blue900: blue[900],
+  primary100: primary[100],
+  primary300: primary[300],
+  primary400: primary[400],
+  primary500: primary[500],
+  primary600: primary[600],
+  primary900: primary[900],
 };
 
 // component background
@@ -252,9 +262,9 @@ export const c_background = {
   gray100: gray[100],
   gray200: gray[200],
   gray700: gray[700],
-  blue900: blue[900],
-  blue1000: blue[1000],
-  blue1100: blue[1100],
+  primary900: primary[900],
+  primary1000: primary[1000],
+  primary1100: primary[1100],
 };
 
 export const border = {
@@ -262,11 +272,11 @@ export const border = {
   gray300: gray[300],
   gray600: gray[600],
   gray700: gray[700],
-  blue600: blue[600],
-  blue700: blue[700],
-  blue800: blue[800],
-  blue900: blue[900],
-  blue1000: blue[1000],
+  primary600: primary[600],
+  primary700: primary[700],
+  primary800: primary[800],
+  primary900: primary[900],
+  primary1000: primary[1000],
 };
 
 export const text = {
@@ -275,7 +285,7 @@ export const text = {
   gray500: gray[500],
   gray800: gray[800],
   gray900: gray[900],
-  blue900: blue[900],
+  primary900: primary[900],
 };
 
 export const icon = {
@@ -283,17 +293,17 @@ export const icon = {
   gray400: gray[400],
   gray800: gray[800],
   gray900: gray[900],
-  blue700: blue[700],
-  blue800: blue[800],
-  blue900: blue[900],
-  blue1000: blue[1000],
-  blue1100: blue[1100],
+  primary700: primary[700],
+  primary800: primary[800],
+  primary900: primary[900],
+  primary1000: primary[1000],
+  primary1100: primary[1100],
 };
 
 export const decoration = {
-  blue400: blue[400],
-  blue500: blue[500],
-  blue600: blue[600],
+  primary400: primary[400],
+  primary500: primary[500],
+  primary600: primary[600],
 };
 
 export const lightColors = {

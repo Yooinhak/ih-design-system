@@ -28,17 +28,17 @@ export const StyledButton = styled.button`
   border-radius: 4px;
   border: none;
   color: ${({ theme }) => theme.colors.text.gray75};
-  background-color: ${({ theme }) => theme.colors.c_background.blue900};
+  background-color: ${({ theme }) => theme.colors.c_background.primary900};
   cursor: pointer;
 
   &:hover {
     color: ${({ theme }) => theme.colors.text.gray75};
-    background-color: ${({ theme }) => theme.colors.c_background.blue1000};
+    background-color: ${({ theme }) => theme.colors.c_background.primary1000};
   }
 
   &:active {
     color: ${({ theme }) => theme.colors.text.gray75};
-    background-color: ${({ theme }) => theme.colors.c_background.blue1100};
+    background-color: ${({ theme }) => theme.colors.c_background.primary1100};
   }
 
   &:disabled {
